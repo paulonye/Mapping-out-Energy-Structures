@@ -1,0 +1,72 @@
+source,target,value,label,ln,Labels
+0,1,124.729,stream 1,0,Agricultural 'waste'
+1,2,0.597,,1,Bio-conversion
+1,3,26.862,,2,Liquid
+1,4,280.322,,3,Losses
+1,5,81.144,stream 1,4,Solid
+6,2,35,,5,Gas
+7,4,35,,6,Biofuel imports
+8,9,11.606,,7,Biomass imports
+10,9,63.965,,8,Coal imports
+9,4,75.571,,9,Coal
+11,12,10.639,,10,Coal reserves
+11,13,22.505,,11,District heating
+11,14,46.184,,12,Industry
+15,16,104.453,,13,Heating and cooling - commercial
+15,14,113.726,,14,Heating and cooling - homes
+15,17,27.14,,15,Electricity grid
+15,12,342.165,,16,Over generation / exports
+15,18,37.797,,17,H2 conversion
+15,19,4.412,,18,Road transport
+15,13,40.858,,19,Agriculture
+15,3,56.691,,20,Rail transport
+15,20,7.863,,21,Lighting & appliances - commercial
+15,21,90.008,,22,Lighting & appliances - homes
+15,22,93.494,,23,Gas imports
+23,24,40.719,,24,Ngas
+25,24,82.233,,25,Gas reserves
+5,13,0.129,,26,Thermal generation
+5,3,1.401,,27,Geothermal
+5,26,151.891,,28,H2
+5,19,2.096,,29,Hydro
+5,12,48.58,stream 1,30,International shipping
+27,15,7.013,,31,Domestic aviation
+17,28,20.897,,32,International aviation
+17,3,6.242,,33,National navigation
+28,18,20.897,,34,Marine algae
+29,15,6.995,,35,Nuclear
+2,12,121.066,,36,Oil imports
+2,30,128.69,,37,Oil
+2,18,135.835,,38,Oil reserves
+2,31,14.458,,39,Other waste
+2,32,206.267,,40,Pumped heat
+2,19,3.64,,41,Solar PV
+2,33,33.218,,42,Solar Thermal
+2,20,4.413,,43,Solar
+34,1,14.375,,44,Tidal
+24,5,122.952,,45,UK land based bioenergy
+35,26,500,Old generation plant (made-up),46,Wave
+35,26,139.978,New generation plant (made-up),47,Wind
+36,37,504.287,,,
+38,37,107.703,,,
+37,2,611.99,,,
+39,4,56.587,,,
+39,1,77.81,,,
+40,14,193.026,,,
+40,13,70.672,,,
+41,15,59.901,,,
+42,14,19.263,,,
+43,42,19.263,,,
+43,41,59.901,,,
+4,19,0.882,,,
+4,26,400.12,,,
+4,12,46.477,,,
+26,15,525.531,,,
+26,3,787.129,,,
+26,11,79.329,,,
+44,15,9.452,,,
+45,1,182.01,,,
+46,15,19.013,,,
+47,15,289.366,,,
+35,26,100,,,
+35,26,100,,,

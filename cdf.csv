@@ -1,0 +1,72 @@
+source,target,value,label,ln,Labels
+Agricultural 'waste',Bio-conversion,124.729,stream 1,0.0,Agricultural 'waste'
+Bio-conversion,Liquid,0.597,,1.0,Bio-conversion
+Bio-conversion,Losses,26.862,,2.0,Liquid
+Bio-conversion,Solid,280.322,,3.0,Losses
+Bio-conversion,Gas,81.14399999999999,stream 1,4.0,Solid
+Biofuel imports,Liquid,35.0,,5.0,Gas
+Biomass imports,Solid,35.0,,6.0,Biofuel imports
+Coal imports,Coal,11.606,,7.0,Biomass imports
+Coal reserves,Coal,63.965,,8.0,Coal imports
+Coal,Solid,75.571,,9.0,Coal
+District heating,Industry,10.639000000000001,,10.0,Coal reserves
+District heating,Heating and cooling - commercial,22.505,,11.0,District heating
+District heating,Heating and cooling - homes,46.184,,12.0,Industry
+Electricity grid,Over generation / exports,104.45299999999999,,13.0,Heating and cooling - commercial
+Electricity grid,Heating and cooling - homes,113.726,,14.0,Heating and cooling - homes
+Electricity grid,H2 conversion,27.14,,15.0,Electricity grid
+Electricity grid,Industry,342.165,,16.0,Over generation / exports
+Electricity grid,Road transport,37.797,,17.0,H2 conversion
+Electricity grid,Agriculture,4.412,,18.0,Road transport
+Electricity grid,Heating and cooling - commercial,40.858000000000004,,19.0,Agriculture
+Electricity grid,Losses,56.691,,20.0,Rail transport
+Electricity grid,Rail transport,7.8629999999999995,,21.0,Lighting & appliances - commercial
+Electricity grid,Lighting & appliances - commercial,90.008,,22.0,Lighting & appliances - homes
+Electricity grid,Lighting & appliances - homes,93.494,,23.0,Gas imports
+Gas imports,Ngas,40.719,,24.0,Ngas
+Gas reserves,Ngas,82.23299999999999,,25.0,Gas reserves
+Gas,Heating and cooling - commercial,0.129,,26.0,Thermal generation
+Gas,Losses,1.401,,27.0,Geothermal
+Gas,Thermal generation,151.891,,28.0,H2
+Gas,Agriculture,2.096,,29.0,Hydro
+Gas,Industry,48.58,stream 1,30.0,International shipping
+Geothermal,Electricity grid,7.013,,31.0,Domestic aviation
+H2 conversion,H2,20.897,,32.0,International aviation
+H2 conversion,Losses,6.242000000000001,,33.0,National navigation
+H2,Road transport,20.897,,34.0,Marine algae
+Hydro,Electricity grid,6.995,,35.0,Nuclear
+Liquid,Industry,121.066,,36.0,Oil imports
+Liquid,International shipping,128.69,,37.0,Oil
+Liquid,Road transport,135.835,,38.0,Oil reserves
+Liquid,Domestic aviation,14.458,,39.0,Other waste
+Liquid,International aviation,206.267,,40.0,Pumped heat
+Liquid,Agriculture,3.64,,41.0,Solar PV
+Liquid,National navigation,33.218,,42.0,Solar Thermal
+Liquid,Rail transport,4.413,,43.0,Solar
+Marine algae,Bio-conversion,14.375,,44.0,Tidal
+Ngas,Gas,122.95200000000001,,45.0,UK land based bioenergy
+Nuclear,Thermal generation,500.0,Old generation plant (made-up),46.0,Wave
+Nuclear,Thermal generation,139.97799999999998,New generation plant (made-up),47.0,Wind
+Oil imports,Oil,504.287,,,
+Oil reserves,Oil,107.70299999999999,,,
+Oil,Liquid,611.99,,,
+Other waste,Solid,56.586999999999996,,,
+Other waste,Bio-conversion,77.81,,,
+Pumped heat,Heating and cooling - homes,193.02599999999998,,,
+Pumped heat,Heating and cooling - commercial,70.672,,,
+Solar PV,Electricity grid,59.901,,,
+Solar Thermal,Heating and cooling - homes,19.262999999999998,,,
+Solar,Solar Thermal,19.262999999999998,,,
+Solar,Solar PV,59.901,,,
+Solid,Agriculture,0.882,,,
+Solid,Thermal generation,400.12,,,
+Solid,Industry,46.477,,,
+Thermal generation,Electricity grid,525.531,,,
+Thermal generation,Losses,787.1289999999999,,,
+Thermal generation,District heating,79.329,,,
+Tidal,Electricity grid,9.452,,,
+UK land based bioenergy,Bio-conversion,182.01,,,
+Wave,Electricity grid,19.012999999999998,,,
+Wind,Electricity grid,289.366,,,
+Nuclear,Thermal generation,100.0,,,
+Nuclear,Thermal generation,100.0,,,
